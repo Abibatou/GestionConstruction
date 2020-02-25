@@ -1,0 +1,27 @@
+<NavigationContainer>
+    <Stack.Navigator initialRouteName='Accueil'
+    >
+      <Stack.Screen
+      
+        name="Bienvenue sur notre site !!"
+        component={Accueil} 
+      />
+      <Stack.Screen name="Inscription"
+      component={Inscription}/>
+      <Stack.Screen name="Connexion"
+      component={Connexion}/>
+      <Stack.Screen name="Plan"
+      component={Plan}/>
+      <Stack.Screen name="ListeQuincaillerie"
+      component={ListeQuincaillerie}/>
+      <Stack.Screen name="NomQuincaillerie"
+      component={NomQuincaillerie}/>
+      <Stack.Screen name="Marteau"
+      component={Marteau}/>
+    </Stack.Navigator>
+  </NavigationContainer>
+
+
+
+
+const Stack = createStackNavigator();
